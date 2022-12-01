@@ -9,5 +9,5 @@ public interface BookRepository extends CrudRepository<Book, String> {
 
     List<Book> findBookByAuthor(String author);
 
-    List<Book> findBookByTitle(String author);
+    List<Book> findBookByTitle(String title);
 }
